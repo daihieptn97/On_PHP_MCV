@@ -5,17 +5,16 @@
     3. Xoá dữ liệu
     4. tìm kiếm
     - Hiển thị dữ liệu dưới dạng bảng VD :
-    | Tables        | Are           | Cool  |
-    | ------------- |:-------------:| -----:|
-    | col 3 is      | right-aligned | $1600 |
-    | col 2 is      | centered      |   $12 |
-    | zebra stripes | are neat      |    $1 |
+    Markdown | Less | Pretty
+    --- | --- | ---
+    *Still* | `renders` | **nicely**
+    1 | 2 | 3
  
  - Trong code mình sử dụng mô hình mvc 
  
  - Giải thích thêm cho bạn nào chưa biết mô hình mvc là MVC là viết tắt của Modo
-        ⋅⋅* M là Model: cấu trúc dữ liệu theo cách tin cậy và chuẩn bị dữ liệu theo lệnh của controller
+⋅⋅* M là Model: cấu trúc dữ liệu theo cách tin cậy và chuẩn bị dữ liệu theo lệnh của controller
          
-        ⋅⋅* V là View: Hiển thị dữ liệu cho người dùng theo cách dễ hiểu dựa trên hành động của người dùng.
+⋅⋅* V là View: Hiển thị dữ liệu cho người dùng theo cách dễ hiểu dựa trên hành động của người dùng.
          
-        ⋅⋅* C là Controller: Nhận lệnh từ người dùng, gửi lệnh đến cho Model để cập nhập dữ liệu, truyền lệnh đến View để cập nhập giao diện hiển thị.
+⋅⋅* C là Controller: Nhận lệnh từ người dùng, gửi lệnh đến cho Model để cập nhập dữ liệu, truyền lệnh đến View để cập nhập giao diện hiển thị.
