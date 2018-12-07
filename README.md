@@ -23,7 +23,7 @@
               xong các bạn xẽ gửi dữ liệu vừa lấy được ở model trả về cho View để cho hiển thị (Đoạn này có vẻ hơi khó hiểu đùng  không 
               :stuck_out_tongue: 
         * Không sao mình xẽ giải thích cho các bạn qua video để cho các bạn dễ hiểu hơn  nên đừng lo :stuck_out_tongue_winking_eye:
-        * link video ở đây nhé https://i.imgur.com/MlfBeJg.gif , ấn thôi ![Atom](https://i.imgur.com/MlfBeJg.gif)
+        * [link video ở đây nhé , ấn thôi ![Atom](https://i.imgur.com/MlfBeJg.gif) ](https://i.imgur.com/MlfBeJg.gif)
 
   
 - Demo 
