@@ -1,14 +1,10 @@
 <?php 
+require 'controller/Controller.php';
 
-	require "controller/Controller.php";
-	$c  = new Controller();
-	
-	if(!isset($_GET['page']) || $_GET['page'] == "home"){
-		$c->index();
-	}
-	else{
-		$c->{$_GET['page']}();
-	}
+$c = new Controller();
 
-
- ?>
+if(isset($_GET) ){
+	$c->{$_GET['page']}();
+}else {
+	$c->index();
+}

@@ -1,62 +1,29 @@
-<?php 
-	Class Model{
-		private $conn;
-		private $saveName = "localhost";
-		private $username = "root";
-		private $password = "";
-		private $databasename = "LOP_sinhvien";
-	
-		function __construct()
-		{
-			$this->conn =  new mysqli($this->saveName, $this->username, $this->password, $this->databasename);
-			mysqli_set_charset($this->conn, "utf8");
-			// if($this->conn->connect_error){
-			// 	die("loi : " . $conn->connect_error);
-			// }
-		}
+<?php
+ Class Model{
 
-		public function getData()
-		{
-			$sql = "SELECT * from sinhvien";
-			$res =  $this->conn->query($sql);
-			return $res;
-		}
+ 	private $conn = null;
+ 	private $severName = "localhost";
+ 	private $userName = "root";
+ 	private $password = "";
+ 	private $databaseName = "ql_sach";
 
-		public function insert($msv, $ten, $tuoi, $quequan, $gt)
-		{
-			$sql =  "INSERT INTO `sinhvien` (`msv`, `ten`, `tuoi`, `quequan`, `gt`) VALUES ('$msv', ' $ten', '$tuoi', '$quequan', '$gt')";
-			// $this->conn->query($sql);
-			// var_dump($sql); die();
+ 	public function __construct()
+ 	{
+ 		$this->conn = new mysqli($this->severName, $this->userName, $this->password, $this->databaseName);
+ 		mysqli_set_charset($this->conn, "utf8");
+ 	}
 
-			return $this->conn->query($sql);
-		}
+ 	public function getData()
+ 	{
+ 		$sql = "SELECT * FROM `sach` WHERE 1";
+ 		return $this->conn->query($sql);
+ 	}
 
-		public function delete($id)
-		{
-			$sql = "DELETE FROM `sinhvien` WHERE msv = '$id' ";
-			return $this->conn->query($sql);
-		}
+ 	public function them($name, $gia, $nxb)
+ 	{
+ 		$sql = "INSERT INTO `sach`( `name`, `giasach`, `nxb`) VALUES ('$name','$gia','$nxb' )";
+ 		return $this->conn->query($sql);
+ 	}
 
-		public function search($msv)
-		{
-			$sql  = "SELECT * FROM `sinhvien` WHERE msv LIKE '%$msv%' ";
-			// var_dump($sql);
-			$res =  $this->conn->query($sql);
-			return $res;
-		}
 
-		public function getSutudenByMSV($msv)
-		{
-			$sql  = "SELECT * FROM `sinhvien` WHERE msv = '$msv' ";
-			$res =  $this->conn->query($sql);
-		
-			return $res->fetch_assoc();
-		}
-			
-		public function edit($msv, $ten, $tuoi, $quequan, $gt)
-	    {
-	    	$sql = "UPDATE `sinhvien` SET `ten`='$ten',`tuoi`='$tuoi',`quequan`='$quequan',`gt`='$gt' WHERE msv = '$msv' ";
-	    	return $this->conn->query($sql);
-	    }
-	}
- ?>
+ }
