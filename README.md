@@ -4,17 +4,20 @@
     2. Sửa dữ liệu
     3. Xoá dữ liệu
     4. tìm kiếm
-    - Hiển thị dữ liệu dưới dạng bảng VD :
-    Markdown | Less | Pretty
-    --- | --- | ---
-    *Still* | `renders` | **nicely**
-    1 | 2 | 3
+- Hiển thị dữ liệu dưới dạng bảng VD :
+
+    | Tables        | Are           | Cool  |
+    | ------------- |:-------------:| -----:|
+    | col 3 is      | right-aligned | $1600 |
+    | col 2 is      | centered      |   $12 |
+    | zebra stripes | are neat      |    $1 |
  
- - Trong code mình sử dụng mô hình mvc 
- 
- - Giải thích thêm cho bạn nào chưa biết mô hình mvc là MVC là viết tắt của Modo
-⋅⋅* M là Model: cấu trúc dữ liệu theo cách tin cậy và chuẩn bị dữ liệu theo lệnh của controller
+- Giải thích thêm cho bạn nào chưa biết mô hình MVC
+    * M là Model: nơi mà các bạn có thể thao tác với cơ sở dữ liệu để trả dữ liệu về cho 
          
-⋅⋅* V là View: Hiển thị dữ liệu cho người dùng theo cách dễ hiểu dựa trên hành động của người dùng.
+    * V là View: cái này thì đơn gỉan rồi đúng không :v , là để hiển thị chứ còn để làm gì 
          
-⋅⋅* C là Controller: Nhận lệnh từ người dùng, gửi lệnh đến cho Model để cập nhập dữ liệu, truyền lệnh đến View để cập nhập giao diện hiển thị.
+    * C là Controller: Là nơi nhận các thao tác của các bạn như ấn vào nút thêm hay nút xoá ... gọi chung là các hành
+    động của các bạn ,sau  gửi lệnh đến cho Model để thao tác với cơ sở dữ liệu (VD : thêm sửa xoá ...), Sau khi đã thao tác với cơ sở dữ liệu 
+    xong các bạn xẽ gửi dữ liệu vừa lấy được ở model trả về cho View để cho hiển thị (Đoạn này có vẻ hơi khó hiểu đùng  không 
+    :stuck_out_tongue: ).
