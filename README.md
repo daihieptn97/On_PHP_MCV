@@ -15,9 +15,14 @@
 - Giải thích thêm cho bạn nào chưa biết mô hình MVC
     * M là Model: nơi mà các bạn có thể thao tác với cơ sở dữ liệu để trả dữ liệu về cho 
          
-    * V là View: cái này thì đơn gỉan rồi đúng không :v , là để hiển thị chứ còn để làm gì 
+    * V là View: cái này thì đơn gỉan rồi đúng không :laughing: , là để hiển thị chứ còn để làm gì nữa :smile:
          
     * C là Controller: Là nơi nhận các thao tác của các bạn như ấn vào nút thêm hay nút xoá ... gọi chung là các hành
-    động của các bạn ,sau  gửi lệnh đến cho Model để thao tác với cơ sở dữ liệu (VD : thêm sửa xoá ...), Sau khi đã thao tác với cơ sở dữ liệu 
-    xong các bạn xẽ gửi dữ liệu vừa lấy được ở model trả về cho View để cho hiển thị (Đoạn này có vẻ hơi khó hiểu đùng  không 
-    :stuck_out_tongue: ).
+    động của các bạn ,sau  gửi lệnh đến cho Model để thao tác với cơ sở dữ liệu .
+        * VD : thêm sửa xoá ...), Sau khi đã thao tác với cơ sở dữ liệu 
+              xong các bạn xẽ gửi dữ liệu vừa lấy được ở model trả về cho View để cho hiển thị (Đoạn này có vẻ hơi khó hiểu đùng  không 
+              :stuck_out_tongue: 
+        * Không sao mình xẽ giải thích cho các bạn qua video để cho các bạn dễ hiểu hơn  nên đừng lo :stuck_out_tongue_winking_eye:
+    
+ - Demo 
+    
