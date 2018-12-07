@@ -23,6 +23,11 @@
               xong các bạn xẽ gửi dữ liệu vừa lấy được ở model trả về cho View để cho hiển thị (Đoạn này có vẻ hơi khó hiểu đùng  không 
               :stuck_out_tongue: 
         * Không sao mình xẽ giải thích cho các bạn qua video để cho các bạn dễ hiểu hơn  nên đừng lo :stuck_out_tongue_winking_eye:
-    
- - Demo 
-    
+
+  
+- Demo 
+    -
+    - Trang chủ
+    ![Atom](https://raw.githubusercontent.com/daihieptn97/On_PHP_MCV/master/image_example/Screen%20Shot%202018-12-07%20at%2019.06.45.png)
+    - Trang sửa thông tin
+    ![Atom](https://raw.githubusercontent.com/daihieptn97/On_PHP_MCV/master/image_example/Screen%20Shot%202018-12-07%20at%2019.07.26.png)
