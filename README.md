@@ -31,3 +31,5 @@
     ![Atom](https://raw.githubusercontent.com/daihieptn97/On_PHP_MCV/master/image_example/Screen%20Shot%202018-12-07%20at%2019.06.45.png)
     - Trang sửa thông tin
     ![Atom](https://raw.githubusercontent.com/daihieptn97/On_PHP_MCV/master/image_example/Screen%20Shot%202018-12-07%20at%2019.07.26.png)
+    
+## Chúc các bạn Thi tốt ![Atom](https://i.imgur.com/RnyZZkp.gif)
