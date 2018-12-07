@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.add form label{
+	display: inline-block;
+	min-width: 150px;
+}
+.add form .form-item {
+	margin :  10px 0;
+}
+.form-search{
+	margin :   20px 0;
+
+}
+.form-search form{
+	width: 50%;
+	float: left;
+}
+.form-search button {
+	float: right;
+	text-align: left
+}
+
+.title{
+	margin-top: 50px;
+	margin-bottom: 20px
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+table {
+	clear: both;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #0e02102b;
+}
