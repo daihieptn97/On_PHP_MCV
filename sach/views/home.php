@@ -3,11 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Trang chủ</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="container">
-		<a href="?page=them">Thêm sách</a>
-		<table border="1" width="100%">
+	<div class="container border p-t-20">
+		<div class="title">
+			<h4>Danh sách sách</h4>
+		</div>
+		<a href="?page=them" >
+			Thêm sách
+		</a>
+		<table  width="100%">
 			<thead>
 				<tr>
 					<th>ID</th>
