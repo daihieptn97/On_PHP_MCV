@@ -25,5 +25,24 @@
  		return $this->conn->query($sql);
  	}
 
+ 	public function sua($name, $gia, $nxb, $id)
+ 	{
+ 		$sql = "UPDATE `sach` SET `name`='$name',`giasach`='$gia',`nxb`='$nxb' WHERE id = '$id' ";
+ 		return $this->conn->query($sql);
+ 	}
+
+ 	public function xoa($id)
+ 	{
+ 		$sql = "DELETE FROM `sach` WHERE id = '$id' ";
+ 		return $this->conn->query($sql);
+ 	}
+
+ 	public function thongtinsach($id)
+ 	{
+ 		$sql = "SELECT * FROM `sach` WHERE id = '$id' ";
+ 		return $this->conn->query($sql);
+ 	}
+
+
 
  }
