@@ -19,6 +19,12 @@
  		return $this->conn->query($sql);
  	}
 
+ 	public function getDataSort($sort = "desc") // ham dung de sap xep
+ 	{
+ 		$sql = "SELECT * FROM `sach` ORDER BY giasach " . $sort;
+ 		return $this->conn->query($sql);
+ 	}
+
  	public function them($name, $gia, $nxb)
  	{
  		$sql = "INSERT INTO `sach`( `name`, `giasach`, `nxb`) VALUES ('$name','$gia','$nxb' )";

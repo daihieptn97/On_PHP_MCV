@@ -10,7 +10,10 @@ Class Controller{
 
 	public function index()
 	{
-		$dataHome = $this->model->getData();
+		if(isset($_GET['sort'])){
+			$dataHome = $this->model->getDataSort($_GET['sort']);
+		}else 
+			$dataHome = $this->model->getData();
 		require 'views/home.php';
 	}
 
