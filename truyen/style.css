@@ -1,0 +1,75 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: green;
+}
+
+.container{
+	width: 1000px;
+	margin: 40px auto;	
+	padding: 20px;
+	border: 1px solid #a5a5a547;
+	background-color: #a5a5a508;
+}
+
+table, th, td{
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 3px;
+
+}
+
+tr:nth-child(even){
+	background-color: #80808042;
+}
+
+col:nth-child(1){
+	background-color: green;
+}
+
+.title h4{
+	text-align: center;
+	font-size: 19px;
+}
+
+.container-form{
+	width: 600px;
+	margin: 40px auto;
+	border: 1px solid #a5a5a547;
+	/*background-color: #a5a5a508;*/
+	padding: 10px;
+}
+
+form{
+	width: fit-content;
+    margin: auto;
+}
+
+.form-item{
+	padding: 5px 0;
+}
+
+.form-item label{
+	display: inline-block;
+	min-width: 140px;
+}
+
+.form-item input:not([type="submit"]){
+	
+	min-width: 300px;
+	padding: 5px;
+	background-color: #a5a5a508;
+	border: 1px solid grey; 
+}
+
+.form-item:last-child{
+	margin-left: 140px;
+}
+
