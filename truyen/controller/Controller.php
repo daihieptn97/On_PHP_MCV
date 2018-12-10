@@ -10,6 +10,7 @@ class Controller {
 	}
 
 	public  function index(){
+
 		$dataHome = $this->model->getData();
 		require "./views/home.php";
 	}
@@ -28,7 +29,7 @@ class Controller {
 		
 		if($this->model->them($_POST['ten'], $_POST['gia'], $_POST['tacgia'], $_POST['nxb'], $_POST['nam'], $_POST['time_create']) ){
 			echo "Them thanh cong !";
-			header("refresh:1;url=?page=index");
+			header("refresh:1 page=index");
 
 		}else{
 			echo "Them that bai";
